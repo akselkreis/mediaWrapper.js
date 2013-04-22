@@ -5,7 +5,7 @@ jQuery mediaWrapper is a plugin for wrapping an making iframes and embedded vide
 
 The plugin is very simple, it wraps the iframe in a relatively positioned container, and absolutely positions the iframe inside of that container to conform to the container's dimensions. No styling is applied to the iframe or the container other than what is needed to make the iframe responsive. 
 
-You can apply your own styles to the iframe or it's contianer by targeting the 'mediaWrapper' class.
+You can apply your own styles to the iframe or it's container by targeting the 'mediaWrapper' class.
 
 ## Usage
 
@@ -22,7 +22,7 @@ mediaWrapper accepts 2 options: baseHeight and baseWidth. These two options work
 
 This plugin has been tested in the following browsers:  
 Chrome: 26  
-Firefox: 13, 20  
+Firefox: 13-20  
 Internet Explorer: 8, 9, 10  
 Opera: 12  
 Safari: 6  
