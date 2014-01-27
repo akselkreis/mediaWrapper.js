@@ -24,6 +24,6 @@
     "tests"
   ],
   "dependencies": {
-    "jQuery": "1.8.4"
+    "jQuery": "1.8.3"
   }
 }
