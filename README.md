@@ -9,7 +9,7 @@ You can apply your own styles to the iframe or it's container by targeting the '
 
 ## Usage
 
-mediaWrapper accepts 2 options: baseHeight and baseWidth. These two options work together to determine the aspect ratio of the video you are embedding. You can use any combination of numbers, for example: an actual aspect ratio like '16 & 9' or '4 & 3' to set the aspect ratio, or a set of pixel values such as '640' & '480'. The plugin will fill 100% of it container's width fy default. 
+mediaWrapper accepts 2 options: baseHeight and baseWidth. These two options work together to determine the aspect ratio of the video you are embedding. You can use any combination of numbers, for example: an actual aspect ratio like '16 & 9' or '4 & 3' to set the aspect ratio, or a set of pixel values such as '640' & '480'. The plugin will fill 100% of it container's width by default. 
 
 <pre><code>$(document).ready(function(){
 	$('iframe').mediaWrapper({
