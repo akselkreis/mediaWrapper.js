@@ -21,10 +21,10 @@ mediaWrapper accepts 2 options: baseHeight and baseWidth. These two options work
 ## Compatibility
 
 This plugin has been tested in the following browsers:  
-Chrome: 26  
-Firefox: 13-20  
-Internet Explorer: 8, 9, 10  
-Opera: 12  
-Safari: 6  
+Chrome: 26+ 
+Firefox: 13+ 
+Internet Explorer: 8+  
+Opera: 12+
+Safari: 6+ 
   
 License: MIT/GPLv2
