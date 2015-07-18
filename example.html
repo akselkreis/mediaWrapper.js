@@ -5,8 +5,11 @@
 	<script src="jquery.mediaWrapper.js"></script>
 	<script>
 		$(document).ready(function(){
-			$('iframe.wrap').mediaWrapper({
-				baseWidth	:16, 
+			$('iframe.wrap').mediaWrapper();
+
+			$('iframe.wrapAspect').mediaWrapper({
+				intrinsic: false,
+				baseWidth	:16,
 				baseHeight	:9
 			});
 		});
@@ -37,8 +40,10 @@
 <body>
 	<div class="wrapper">
 		<h1>jquery.mediaWrapper.js</h1>
-		<h2>iframe with mediaWrapper.js</h2>
+		<h2>iframe with mediaWrapper.js &amp; intrinsic values</h2>
 		<iframe class="wrap" width="420" height="315" src="http://www.youtube.com/embed/U5X4N2exOsU" frameborder="0" allowfullscreen></iframe>
+		<h2>iframe with mediaWrapper.js &amp; custom aspect ratio</h2>
+		<iframe class="wrapAspect" width="420" height="315" src="http://www.youtube.com/embed/U5X4N2exOsU" frameborder="0" allowfullscreen></iframe>
 		<h2>iframe without mediaWrapper.js but with 100% width.</h2>
 		<iframe class="noWrapper" width="420" height="315" src="http://www.youtube.com/embed/U5X4N2exOsU" frameborder="0" allowfullscreen></iframe>
 		<h2>iframe without anything.</h2>
