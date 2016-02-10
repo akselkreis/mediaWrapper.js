@@ -1,6 +1,6 @@
 // mediaWrapper.js: Simple responsive iframes
 // MIT license http://www.opensource.org/licenses/mit-license.php/
-// @author Matthew A. K. Smith http://www.akselkreismedia.com
+// @author Matthew A. K. Smith http://www.akselkreis.com
 
 (function( $ ){
 
