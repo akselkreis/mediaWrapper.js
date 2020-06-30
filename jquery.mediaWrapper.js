@@ -14,8 +14,8 @@
 
     return this.each(function() {
       var hRatio = '';
-
-      if (settings.intrinsic == true && $(this).attr("width") != '' && $(this).attr("height") != ''){
+      
+      if (settings.intrinsic == true && typeof $(this).attr("width") !== 'undefined' && typeof $(this).attr("height") !== 'undefined'){
         hRatio = ($(this).attr("height") / $(this).attr("width")) * 100;
       } else {
         hRatio = (settings.baseHeight / settings.baseWidth) * 100;
