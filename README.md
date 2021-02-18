@@ -1,4 +1,4 @@
-#mediaWrapper.js
+# mediaWrapper.js
 ## Simple Responsive iframes.
 
 jQuery mediaWrapper is a plugin for wrapping an making iframes and embedded videos behave more like images when developing a responsive website. Currently iframes will default to an arbitrary width set by the embed code.
